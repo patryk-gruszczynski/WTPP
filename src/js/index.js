@@ -6,4 +6,16 @@ import '../scss/main.scss';
 
 /* place your code below */
 
-console.log('HELLO 🚀')
+console.log('siemano')
+
+const hamburger = document.querySelector('.hamburger');
+const navigation = document.querySelector('.navigation');
+
+const handleclick = () => {
+
+    hamburger.classList.toggle('hamburger--active');
+    navigation.classList.toggle('navigation--active');
+}
+
+hamburger.addEventListener('click', handleclick);
+
