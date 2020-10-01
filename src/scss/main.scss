@@ -36,12 +36,13 @@ body {
   }
 
 .hamburger, .navigation {
-  transition: transform .5s .1s ease-in-out;
+  
 }
 
 .hamburger--active {
   transform: translateX(0px);
-}
+  transition: transform .5s .1s ease-in-out;
+  }
 
 .hamburger__box {
 width: 35px;
@@ -110,7 +111,8 @@ position: relative;
 
 .navigation--active {
   transform: translateX(0px);
-}
+  transition: transform .5s .1s ease-in-out;
+  }
 
 
 .navigation__item {
