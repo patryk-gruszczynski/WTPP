@@ -1,158 +1,64 @@
 @import "~normalize.css";
-
+@import url('https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,800&display=swap');
 @import "_variables";
-@import "modules/hello.scss";
+@import "modules/hamburger.scss";
+@import "modules/serwis.scss";
+
+
 
 html {
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
-
-body {
-  background: #fff;
-  color: black;
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
 }
 
-@media (max-width:769px) {
-
-.header {
-  background: #ffffff;
-  min-height: 50px;
-  position: fixed;
-  top: 0;
-  width: 100%;
+.body {
+  background:  rgb(36, 68, 212);
 }
 
-.hamburger {
-  padding: 10px;
-  display: inline-block;
-  cursor: pointer;
-  background-color: transparent;
-  border: 0;
+.movie {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+
+ 
+}
+
+.hero {
+position: absolute;
+text-align: center;
+top: 48px;
+right: 0px;
+width: 780px;
+backdrop-filter: blur(20px) saturate(180%) brightness(75%);
+border: 1px solid rgba(0, 0, 0, 0.15);
+border-radius: 20px 0px 0px 20px;
+
+color: #fff;
+
+}
+
+.hero__header {
+  color: #ffffff;
+  font-family: 'Poppins', sans-serif;
+  font-size: 100px;
   margin: 0;
-  position: absolute;
-  top: 0px;
-  right: 0px;
-  }
-
-.hamburger, .navigation {
-  
 }
 
-.hamburger--active {
-  transform: translateX(0px);
-  transition: transform .5s .1s ease-in-out;
-  }
-
-.hamburger__box {
-width: 35px;
-height: 24px;
-display: inline-block;
-position: relative;
-}
-
-@mixin hamburger-line {
-  width: 100%;
-  height: 3px;
-  background-color: rgb(0, 0, 0);
-  position: absolute;
-}
-
-.hamburger__inner {
- @include hamburger-line;
- 
- left: 0;
- top: 50%;
- transform: translateY(-50%);
- transition: background-color .1s .1s ease-in-out;
-}
-
-.hamburger__inner::before,
-.hamburger__inner::after {
-  @include hamburger-line;
-
-  content: '';
-  left: 0;
-  transition: transform .2s .2s ease-in-out;
-
- 
-}
-
-.hamburger__inner::before {
-  top: -10px;
-}
-
-.hamburger__inner::after {
-  top: 10px;
-}
-
-.hamburger--active .hamburger__inner {
-  background-color: transparent;
-}
-
-.hamburger--active .hamburger__inner::before {
-  transform: translateY(10px) rotate(45deg);
-}
-
-.hamburger--active .hamburger__inner::after {
-  transform: translateY(-10px) rotate(-45deg);
-}
-
-.navigation {
-  height: 200px;
-  width: 100%;
-  background-color: rgb(107, 102, 110);
-  position: absolute;
-  top: 50px;
-  left: 0;
-  transform: translateX(-770px);
-  
-}
-
-.navigation--active {
-  transform: translateX(0px);
-  transition: transform .5s .1s ease-in-out;
-  }
-
-
-.navigation__item {
-margin-top: 16px;
-margin-left: 30%;
-margin-bottom: 16px;
-display: block;
-text-decoration: none;
-color: aqua;
-
-}
-
-}
-@media (min-width: 769px) {
-
-.hamburger {
-  display: none;
-}
-
-.navigation {
-  overflow: auto;
-  background: rgba(255, 255, 255, 0.4);
-  box-shadow: 0 5px 3px 0 rgba(0, 0, 0, 0.1);
-  position: fixed;
-  top: 0;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  z-index: 12;
-}
-
-.navigation__item {
-  font-family: 'Rajdhani', sans-serif;
-  font-size: 18px;
-  text-transform: uppercase;
-  display: inline-block;
-  color:black;
-  padding: 14px 16px;
-  text-decoration: none;
-  transition: color 0.7s linear, transform 0.7s ease-in-out;
-}
-
+.hero__description {
+  color: #ffffff;
+  font-family: 'Poppins', sans-serif;
+  font-size: 60px;
+  margin: 0;
 }
