@@ -1,12 +1,76 @@
-.about {
+@media (max-width: 768px) {
+
+.about__team {
+   display: block;
+   justify-content: center;
+   
+   }
+
+.about__items {
+   margin-top: 100px;
+   text-align: center;
+}
+
+.about__elements {
+   height: 200px;
+   width: 200px;
+   }
+}
+
+.about__container {
+   display: flex;
+   justify-content: center;
+}
+
+.description {
+   font-family: rajdhani;
+   margin-top: 100px;
+   margin-bottom: 128px;
+   color: rgb(0, 0, 0);
+   justify-content: center;
+   display: block;
+   font-weight: 300;
+   font-size: 20px;
+   line-height: 25px;
+   
+   padding: 30px;
+}
+
+
+@media (min-width: 769px) {
+
+.about__columns {
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.about__container {
+   display: flex;
+   justify-content: center;
+   margin-top: 70px;
+}
+
+.about__items {
+   padding-top: 100px;
+   text-align: center;
+}
+
+.about__elements {
+   height: 250px;
+   width: 250px;
+}
+
+  .description {
+   font-family: rajdhani;
    margin-top: 100px;
    max-width: 1000px;
-   color: blanchedalmond;
-   text-align: center;
+   color: rgb(0, 0, 0);
+   justify-content: center;
    display: block;
    font-weight: 300;
    font-size: 20px;
    line-height: 25px;
    margin-bottom: 128px;
    padding-left: 350px;
+}
 }

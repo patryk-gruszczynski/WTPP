@@ -1,0 +1,53 @@
+@media (max-width: 768px) {
+.contact {
+color: rgb(0, 0, 0);
+font-family: rajdhani;
+
+padding: 270px 0 0 60px;
+overflow: auto;
+}
+
+
+.contact__mail {
+    padding-left: 128px;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 64px;
+    color: #fff;
+    background:rgb(0, 31, 172);
+    display: inline-block;
+    padding: 4px 24px;
+    font-size: 18px;
+    line-height: 40px;
+    text-decoration: none;
+    margin: 0 auto;
+    max-width: 300px;
+}    
+}
+
+
+
+@media (min-width: 769px) {
+
+.contact {
+color: rgb(0, 0, 0);
+font-family: rajdhani;
+padding: 128px;
+overflow: auto;
+}
+
+
+.contact__mail {
+    padding-left: 128px;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 64px;
+    color: #fff;
+    background:rgb(0, 31, 172);
+    display: inline-block;
+    padding: 4px 24px;
+    font-size: 20px;
+    line-height: 40px;
+    text-decoration: none;
+    margin: 0 auto;
+    max-width: 400px;
+}
+}

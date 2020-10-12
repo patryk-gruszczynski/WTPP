@@ -1,0 +1,17 @@
+@media (max-width: 768px) {
+
+.gif {
+    display: none;
+}
+}
+
+@media (min-width: 769px) {
+
+.gif {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+
+}

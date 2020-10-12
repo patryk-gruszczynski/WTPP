@@ -7,7 +7,9 @@
 @import "_variables";
 @import "modules/hamburger.scss";
 @import "modules/serwis.scss";
-
+@import "modules/obrobka.scss";
+@import "modules/galeria.scss";
+@import "modules/kontakt.scss";
 
 
 
@@ -23,7 +25,7 @@ html {
 }
 
 .body {
-  background:  rgb(131, 136, 160);
+  background-image: url(../assets/img/grunt.png);
 }
 
 @media (max-width: 768px) {
