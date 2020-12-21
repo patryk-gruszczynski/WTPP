@@ -1,21 +1,28 @@
+
+
 @media (max-width: 768px) {
 
-.about__team {
+.about__columns {
+   margin-top: 260px;
+}
+
+   .about__team {
    display: block;
    justify-content: center;
    
    }
 
 .about__items {
-   margin-top: 100px;
+   margin-top: 70px;
    text-align: center;
+   font-family: 'Poppins', sans-serif;
 }
 
 .about__elements {
    height: 200px;
    width: 200px;
    }
-}
+
 
 .about__container {
    display: flex;
@@ -23,17 +30,27 @@
 }
 
 .description {
-   font-family: rajdhani;
+   font-family: 'Poppins', sans-serif;
    margin-top: 100px;
    margin-bottom: 128px;
+   margin-left: 20px;
    color: rgb(0, 0, 0);
    justify-content: center;
    display: block;
-   font-weight: 300;
-   font-size: 20px;
+   font-weight: 100;
+   font-size: 18px;
    line-height: 25px;
    
-   padding: 30px;
+   }
+
+ .description__title {
+    margin-left: 20px;
+ }
+
+ .description__list--item {
+   margin-left: 0px;
+}
+
 }
 
 
@@ -53,24 +70,29 @@
 .about__items {
    padding-top: 100px;
    text-align: center;
+   font-family: 'Poppins', sans-serif;
+   font-size: 30px;
+   line-height: 40px;
 }
 
 .about__elements {
-   height: 250px;
-   width: 250px;
+   height: 200px;
+   width: 200px;
 }
 
   .description {
-   font-family: rajdhani;
+   font-family: 'Poppins', sans-serif;
    margin-top: 100px;
    max-width: 1000px;
    color: rgb(0, 0, 0);
    justify-content: center;
    display: block;
-   font-weight: 300;
-   font-size: 20px;
-   line-height: 25px;
+   font-size: 30px;
+   line-height: 50px;
    margin-bottom: 128px;
    padding-left: 350px;
 }
+
+
+
 }

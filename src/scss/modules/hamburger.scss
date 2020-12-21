@@ -2,7 +2,7 @@
 @media (max-width: 768px) {
 
     .header {
-      background: #ffffff;
+      background: #ffffff00;
       min-height: 50px;
       position: fixed;
       top: 0;
@@ -38,7 +38,7 @@
     @mixin hamburger-line {
       width: 100%;
       height: 3px;
-      background-color: rgb(0, 0, 0);
+      background-color: rgb(0, 31, 172);
       position: absolute;
     }
     
@@ -85,12 +85,13 @@
     .navigation {
       height: 200px;
       width: 100%;
-      background-color:  rgb(255, 255, 255);
+      padding-bottom: 150px;
+      background-color:  rgba(255, 255, 255, 0.377);
       position: absolute;
-      top: 6vh;
+      top: 50px;
       left: 0;
       transform: translateX(-770px);
-      
+      transition: transform .5s .1s ease-in-out;
     }
     
     .navigation--active {
@@ -126,6 +127,7 @@
         width: 100%;
         display: flex;
         justify-content: center;
+        z-index: 99;
     }
     
     .navigation__item {
