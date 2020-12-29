@@ -91,12 +91,12 @@
       top: 50px;
       left: 0;
       transform: translateX(-770px);
-      transition: transform .5s .1s ease-in-out;
+      transition: transform .7s .1s ease-in-out;
     }
     
     .navigation--active {
       transform: translateX(0px);
-      transition: transform .5s .1s ease-in-out;
+      transition: transform .7s .1s ease-in-out;
       }
     
     
@@ -120,7 +120,7 @@
     
     .navigation {
         overflow: auto;
-        background: rgba(255, 255, 255, 0.4);
+        background: rgba(255, 255, 255, 0.5);
         box-shadow: 0 5px 3px 0 rgba(0, 0, 0, 0.1);
         position: fixed;
         top: 0;

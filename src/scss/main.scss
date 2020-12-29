@@ -38,63 +38,44 @@ html {
     display: none;
   }
   
-  .foto {
+  .banner__img {
     position: absolute;
-    top: 6vh;
+    top: 50px;
     width: 100%;
-    height: 60vh;
+    height: 50vh;
   }
   
   
   .hero {
-    position: absolute;
     text-align: center;
-    top: 65vh;
+    top: 56vh;
     width: 100%;
     height: 35vh;
     }
 
-  .hero {
-    
-    background-repeat: repeat;
-    background-attachment: local;
-    max-height: 100%;
-    max-width: 100%;
-    
-}
+
   
   .hero__header {
-    color: #ffffff;
+    color: #0f0c0c;
     font-family: 'Poppins', sans-serif;
     font-size: 110px;
-    margin: 0;
-   
-  }
+    }
   
   .hero__description {
-    color: #ffffff;
+    color: #972020;
     font-family: 'Poppins', sans-serif;
     font-size: 35px;
-    margin: 0;
-   
-  }
+    }
+
+    .wedo {
+      color: black;
+    }
+
   }
 
 @media (min-width: 769px) {
 
-  .wedo {
-    font-family: 'Poppins', sans-serif;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    margin-left: 20px;
-    color: rgb(0, 0, 0);
-    justify-content: center;
-    display: block;
-    font-weight: 100;
-    font-size: 30px;
-    line-height: 50px;
-    max-width: 1000px;
-  }
+
   
   .banner {
     position: relative;
@@ -144,10 +125,10 @@ html {
     text-align: center;
     top: 48px;
     right: 0px;
-    width: 680px;
+    width: 630px;
     backdrop-filter: blur(20px) saturate(180%) brightness(75%);
     border: 1px solid rgba(0, 0, 0, 0.15);
-    border-radius: 20px 0px 0px 20px;
+    border-radius: 0px 0px 0px 20px;
     color: #ffffff;
     }
     
@@ -161,10 +142,29 @@ html {
     .hero__description {
       color: #ffffff;
       font-family: 'Poppins', sans-serif;
-      font-size: 60px;
+      font-size: 50px;
       margin: 0;
     }
 
 
+    .wedo {
+      font-family: 'Poppins', sans-serif;
+      margin-top: 50px;
+      margin-bottom: 10px;
+      margin-left: 200px;
+      color: rgb(0, 0, 0);
+      justify-content: center;
+      display: block;
+      font-size: 30px;
+      line-height: 50px;
+      max-width: 1000px;
+    }
 
+    .line {
+      position: absolute;
+      width: 950px;
+      background-color: blue;
+      border: 1px solid blue;
+      margin-top: 25px;
+    }
 }
