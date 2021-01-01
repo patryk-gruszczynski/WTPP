@@ -25,9 +25,9 @@
 
 .description {
     font-family: 'Poppins', sans-serif;
-    margin-top: 128px;
-    
-    margin-left: 200px;
+    margin-top: 100px;
+    margin-bottom: 64px;
+    margin-left: 300px;
     color: rgb(0, 0, 0);
     justify-content: center;
     display: block;
@@ -35,5 +35,13 @@
     line-height: 70px;
     max-width: 1000px;
 }
+
+.description__line {
+    position: absolute;
+    width: 700px;
+    background-color:rgb(97, 101, 112);
+    border: 1px solid rgb(97, 101, 112);
+    margin-top: 25px;
+  }
 
 }

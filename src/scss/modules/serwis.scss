@@ -29,6 +29,11 @@
    justify-content: center;
 }
 
+.about__container--big {
+   display: flex;
+   justify-content: center;
+}
+
 .description {
    font-family: 'Poppins', sans-serif;
    margin-top: 100px;
@@ -79,6 +84,8 @@
    font-family: 'Poppins', sans-serif;
    font-size: 30px;
    line-height: 40px;
+   font-weight: 800;
+   font-style: italic;
 }
 
 .about__elements {
