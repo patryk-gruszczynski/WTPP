@@ -16,6 +16,8 @@
    margin-top: 70px;
    text-align: center;
    font-family: 'Poppins', sans-serif;
+   font-style: italic;
+   font-size: 26px;
 }
 
 .about__elements {
@@ -34,27 +36,36 @@
    justify-content: center;
 }
 
-.description {
+.serwis__description {
    font-family: 'Poppins', sans-serif;
-   margin-top: 100px;
-   margin-bottom: 128px;
-   margin-left: 20px;
+   font-size: 18px;
+   font-weight: 600;
+   font-style: italic;
+   line-height: 25px;
+   margin-bottom: 10px;
+   margin-left: 15px;
+   margin-right: 5px;
    color: rgb(0, 0, 0);
    justify-content: center;
    display: block;
-   font-weight: 100;
-   font-size: 18px;
-   line-height: 25px;
-   
+   width: 90%;
+   padding-bottom: 40px;
    }
 
- .description__title {
-    margin-left: 20px;
+ .serwis__descriprion--title {
+   color: #000000;
+   font-family: 'Poppins', sans-serif;
+   font-style: italic;
+   font-size: 26px;
+   line-height: 30px;
+   text-align: center;
+   margin-left: 5px;
+   margin-right: 5px;
+   max-width: 90%;
+   padding-top: 30px;
+   padding-bottom: 30px;
  }
 
- .description__list--item {
-   margin-left: 0px;
-}
 
 }
 
@@ -93,21 +104,28 @@
    width: 200px;
    }
 
-  .description {
+.serwis__description {
    font-family: 'Poppins', sans-serif;
-   margin-top: 100px;
-   max-width: 1000px;
+   font-size: 26px;
+   font-weight: 600;
+   font-style: italic;
+   line-height: 50px;
+   margin-top: 50px;
+   margin-bottom: 10px;
+   margin-left: 200px;
    color: rgb(0, 0, 0);
    justify-content: center;
    display: block;
-   font-size: 30px;
-   line-height: 50px;
-   margin-bottom: 128px;
-   padding-left: 0px;
+   max-width: 1000px;
 }
 
-.description__list {
-   width: 1000px;
+.serwis__descriprion--title {
+   text-align: center;
+   font-size: 30px;
+   line-height: 40px;
+   font-weight: 800;
+   font-style: italic;
 }
+
 
 }

@@ -1,18 +1,18 @@
 @media (max-width: 768px) {
 
     .description {
-        font-family: 'Poppins', sans-serif;
         margin-top: 260px;
-        margin-bottom: 128px;
-        margin-left: 20px;
-        color: rgb(0, 0, 0);
-        justify-content: center;
-        display: block;
-        font-weight: 100;
-        font-size: 18px;
-        line-height: 50px;
-        
-        }
+        color: #000000;
+        font-family: 'Poppins', sans-serif;
+        font-style: italic;
+        font-size: 26px;
+        line-height: 35px;
+        margin-left: 5px;
+        margin-right: 5px;
+        max-width: 90%;
+        margin-left: 15px;
+        padding-bottom: 40px;
+    }
 
 }
 
@@ -25,14 +25,16 @@
 
 .description {
     font-family: 'Poppins', sans-serif;
-    margin-top: 100px;
-    margin-bottom: 64px;
-    margin-left: 300px;
+    font-size: 26px;
+    font-weight: 600;
+    font-style: italic;
+    line-height: 50px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    margin-left: 200px;
     color: rgb(0, 0, 0);
     justify-content: center;
     display: block;
-    font-size: 30px;
-    line-height: 70px;
     max-width: 1000px;
 }
 
